@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "build": "NODE_ENV=production browserify -g uglifyify -o public/bundle.js browser.js",
-    "watch": "watchify -dvo public/bundle.js browser.js"
+    "watch": "watchify -dvo public/bundle.js browser.js",
+    "postinstall": "npm run build"
   },
   "author": "",
   "license": "MIT",
