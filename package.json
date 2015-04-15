@@ -1,0 +1,27 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "NODE_ENV=production browserify -g uglifyify -o public/bundle.js browser.js",
+    "watch": "watchify -dvo public/bundle.js browser.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.4.3",
+    "connect": "^3.3.5",
+    "director": "^1.2.8",
+    "react": "^0.13.1",
+    "react-dom-wrapper": "^2.0.0",
+    "serve-static": "^1.9.2",
+    "whiskers": "^0.3.3"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "uglifyify": "^3.0.1",
+    "watchify": "^2.4.0"
+  }
+}
