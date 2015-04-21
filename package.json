@@ -20,7 +20,9 @@
     "serve-static": "^1.9.2",
     "whiskers": "^0.3.3",
     "browserify": "^9.0.3",
-    "uglifyify": "^3.0.1",
+    "uglifyify": "^3.0.1"
+  },
+  "devDependencies": {
     "watchify": "^2.4.0"
   }
 }
